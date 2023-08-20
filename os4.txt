@@ -1,0 +1,28 @@
+IPC: Inter Process Communication
+--------------------------------
+Pipes:
+2 types, Named and Unnamed
+Unidircetional,
+FIFO,
+Natural Synchronization,
+2 Ends -> Input and Output
+Blocking by nature
+-------------------
+Shared Memory:
+The memory can shared by multiple process
+Fastest form of IPC
+Need Synchronization
+Create shared memory
+Allocate Memory
+Attach Memory
+Access Memory
+Detach Memory
+Deallocate Memory
+Destory the Shared Memory
+POSIX and SYSV
+-------------------
+Message Queues:
+Collection of messages put up in a queue unless and and untill someone reads it
+The messages can be prirotized (How??, please read man page)
+Even this can get blocked like pipes, when there is no writer and reader is waiting, when there is no reader and the writer is writing
+Unlike pipes, in messages queue we can read messages, not entire queue at the same time

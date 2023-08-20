@@ -1,0 +1,37 @@
+  1 pwd - Print working Directory
+  2 ls - List directory contents
+  3 cd - change directory
+  4 mkdir - Create directory
+  5 rmdir - Remove empty directory
+  6 rm - Remove files and directories
+  7 mv - Moving files / directories or renaming files / directories
+  8 echo - print on console
+  9 uname - Print systejm information
+ 10 cp - copy files or directories
+ 11 less, more - File view control
+ 12 head, tail - File view control
+ 13 grep - Find pattern within the files
+ 14 find - find files and directories
+ 15 export - Export shell varaibles
+ 16 source - Source file to running instance of terminal
+ 17 Relative path, Absolute path (/, ., .., ~)
+ 18 man man
+ 19 Install WSL (Windows Subsystem for Linux)
+
+	Learn Vi or nano
+
+shortcut to exit vi
+:q
+:wq
+
+  1 Introduction and OS Architecture  
+  2 Process Management & Signals                                                    2 Process Management & Signals
+  3 Multithreading
+  4 Interprocess Communication
+  5 Scheduling
+  6 Virtual File System
+  7 Virtual Memory Management
+
+Monolithic kernel
+Micro kernel
+Modular Kernel

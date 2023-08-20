@@ -1,0 +1,36 @@
+1.
+ Design a mini shell of your own as follows
+ take command name as input from user (string format)
+ launch the command in the child process using execl/execlp
+ parent will wait for completion of child and print exit status
+ 2.
+ Extend above program to accept multiple commands sequentially
+ Display some string as shell prompt
+ Take command name (string) as input from user
+ Create a child process
+ Launch new program/command in child using execl'
+ Parent will wait for completion of child
+ Repeat until given input is "quit"
+ 3.
+ Write a program to compile & link any c/c++ program within child process by launching gcc using execl/e    xeclp.
+ 4.                                                                                                      17 Write a program, to create multiple child processes using fork
+ All child processes are created from common parent
+ Child processes created in cascading/chain way. [One chil
+
+  1.
+   Write a program to copy one file contents to other using open,read,write,close system calls (like cp co    mmand, which takes source, destination files as cmd line args).
+   2.
+   Write a program to display file contents on console (like cat command)
+   3.
+   Write a program to count no.of lines, words, characters in given file (like wc command)
+   4.
+   Rewrite the program of copying files, to handle large files by copying small buffer at a time (chunk by     chunk)
+  
+
+1.
+   Write a program to create two threads
+   one thread will print squares from 1 to N
+   other thread will prints cubes from 1 to N
+   2.
+   Write a program to compute parallel sum of large array using threads. For e.g. if there are 1000 elemen    ts in array, you may create 10 threads where each thread will compute some of 100 elements each, on com    pletion of threads main thread will consolidate final total
+   3.                                                                                                        Write a program to find min/max element from large array using parallel computations (multithreading)

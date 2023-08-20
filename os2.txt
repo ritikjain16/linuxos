@@ -1,0 +1,54 @@
+mode bit
+--------------------------------------
+process management
+	-thread and process
+	-signal handling
+IPC and synchronisation 
+	-(pipes, shared memory, message queue)
+	-(Racecondition, critical section, locking (mutex), semaphores(signaling)
+Scheduling
+--------------------------------------
+process related commands:
+ps (its important options)
+pstree
+top
+htop
+
+
+
+
+
+Process Management
+        - Thread
+        - Signal Handling
+        - Scheduling
+IPC and Synchronization
+        - Data (Pipes, Shared Memory, Message Queue)
+        - Synchronization (Racecondition, Critical Section, Locking (Mutex), Semaphores (Signaling)
+Memory Management
+File System Management
+Virtual file system
+I/O Management
+Communication (Network, Bluetooth ...)
+Security
+------------------------------------------------
+Process Management:
+Process: Running instance of a program
+        - Program (passive enetity)
+        - Process (active entity)
+Process related commands
+ps (its important options)
+pstree
+top
+htop
+Single Core CPU
+        - Lots of processes would contend for the CPU
+        - Context Switching comes in picture
+                - Progam Counter value
+                - CPU register value
+        - Maintained in PCB (Process Control Block)
+Evrey process will have a PCB
+Every process as a life cycle
+        - Ready Queue
+
+
